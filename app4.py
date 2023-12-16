@@ -3,6 +3,8 @@ from st_pages import Page, show_pages, add_page_title
 from PIL import Image
 import pandas as pd
 import textwrap
+import gspread
+from streamlit_gsheets import GSheetsConnection
 
 st.set_page_config(
       page_title="밀도 탐구",
