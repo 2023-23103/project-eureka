@@ -4,3 +4,5 @@ pandas
 st_pages
 Pillow
 requests
+git+https://github.com/2023-23103/project-eureka.git
+gspread

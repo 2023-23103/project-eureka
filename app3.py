@@ -1,6 +1,6 @@
 
 #pip install gspread oauth2client pandas streamlit, pip install koreanize-matplotlib
-
+#pip install gspread
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
