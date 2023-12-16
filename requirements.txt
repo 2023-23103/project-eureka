@@ -1,0 +1,9 @@
+streamlit
+matplotlib
+pandas
+st_pages
+Pillow
+requests
+gspread
+streamlit_gsheets
+oauth2client
