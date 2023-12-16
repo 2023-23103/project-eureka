@@ -1,8 +1,7 @@
 
 #pip install gspread oauth2client pandas streamlit, pip install koreanize-matplotlib
 #pip install gspread
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
@@ -12,7 +11,7 @@ import koreanize_matplotlib
 
 st.set_page_config(
       page_title="밀도 탐구",
-      page_icon="./crown.png",
+      page_icon="images/crown.png",
       layout="wide"
 )
 
