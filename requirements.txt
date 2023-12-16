@@ -2,6 +2,5 @@ streamlit
 matplotlib
 pandas
 st_pages
-textwrap
 Pillow
 requests
