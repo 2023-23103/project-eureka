@@ -1,19 +1,18 @@
 import streamlit as st
 from st_pages import Page, show_pages, add_page_title
 from PIL import Image
-from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 import textwrap
 
 st.set_page_config(
       page_title="밀도 탐구",
-      page_icon="./crown.png",
+      page_icon="images/crown.png",
       layout="wide"
 )
 
 st.title(':exclamation:문제 해결')
 st.header(':white_medium_square: 문제 상황 확인', divider='rainbow')
-st.image('eureka.png', width=500)
+st.image('images/eureka.png', width=500)
 st.markdown('전 시간에 했던 데이터 해석 결과를 바탕으로 문제 상황에 접목하여 내 생각을 정리하세요. [구글시트에 내 생각 입력하러 가기](https://docs.google.com/spreadsheets/d/1AfJ1XVLk75wllqbPQwZrIwnE0A9Be9p0jsxECjCyzrs/edit?usp=sharing)')
 st.header(':white_medium_square: 친구들 의견 확인', divider='rainbow')
 
