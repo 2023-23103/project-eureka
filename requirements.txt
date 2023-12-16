@@ -6,3 +6,4 @@ Pillow
 requests
 gspread
 streamlit_gsheets
+oauth2client
