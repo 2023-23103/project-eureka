@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_gsheets import GSheetsConnection
 from PIL import Image
 from tkinter import Tk, Label, Button, messagebox
 
