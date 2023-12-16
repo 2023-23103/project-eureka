@@ -1,0 +1,6 @@
+streamlit
+matplotlib
+pandas
+st_pages
+streamlit_gsheets
+textwrap
