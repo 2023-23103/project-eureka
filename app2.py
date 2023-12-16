@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from tkinter import Tk, Label, Button, messagebox
+
 
 ##터미널에 선 설치
 # pip install gspread , pip install pygsheets, pip install streamlit gspread oauth2client, pip install tk
