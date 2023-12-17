@@ -41,4 +41,5 @@ user_text = st.text_input('친구들의 의견도 참고하여 왕에게 전해�
 if st.button(':man-bowing: 왕에게 내용 전달하기'):
     if user_text == "":
         st.write("전달할 의견이 없습니다. 작성해 주세요.")
-    st.write('잘 전달되었습니다. 고생 많았어요!	:pray:')
+    else:
+        st.write('잘 전달되었습니다. 고생 많았어요! :pray:')
